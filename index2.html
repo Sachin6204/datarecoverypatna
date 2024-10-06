@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Recovery Patna</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap">
+    <!--Google reCaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Digital World </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">All Services</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <a href="#quote" class="quote-button">Get Quote</a>
+        </ul>
+    </nav>
+
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="text-content">
+                <h1>Data Recovery Patna</h1>
+                <p>
+                    Bihar’s Leading Data Recovery Centre that provides various Data Recovery Solutions. Get your lost data from HDDs, SSDs, RAID Servers, USB Flash Drives, SD Cards, and other storage devices.
+                </p>
+                <div class="certification">
+                    <span class="icon"><i class="fas fa-shield-alt"></i></span>
+                    <span>ISO-9000-2001 Certified</span>
+                </div>
+                <div class="contact-buttons">
+                    <a class="whatsapp-button" href="https://api.whatsapp.com/send?phone=9263030830" target="_blank" rel="noopener">
+                        WhatsApp<br>9263030830
+                    </a>
+                    <a class="call-button" href="tel:+919507070701">
+                        Call Us<br>9507070701
+                    </a>
+                </div>
+                <div class="diagnosis-button">
+                    <a href="#">Free Diagnosis<br>Get A Quote</a>
+                </div>
+                <div class="address">
+                    <div class="address-title">Address:</div>
+                    <div class="address-details">
+                        <span class="address-icon"><i class="fas fa-map-marker-alt"></i></span>
+                        Shop no.-06, Shmabhunath Plaza, New Dakbanglow Road,<br> Patna-800001
+                    </div>
+                </div>
+            </div>
+            <div class="form-content">
+                <form action="sendEmail.php" method="POST">
+                    <!-- Name and Phone fields in the same row -->
+                    <div class="name-phone-group">
+                        <input type="text" placeholder="Your Name" required minlength="2" maxlength="100" pattern="[A-Za-z\s]+" title="Please enter a valid name with letters and space only.">
+                        <input type="tel" placeholder="Your Phone" required pattern="\d{10}" title="Please enter a valid 10-digit phone number.">
+                    </div>
+            
+                    <!-- Email field -->
+                    <input type="email" placeholder="Your Email" required maxlength="100" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address. Example: example@domain.com">
+            
+                    <!-- Types of Media field -->
+                    <select required>
+                        <option value="" disabled selected>- Types of Media Needing Data Recovery -</option>
+                        <option value="HDD">HDD</option>
+                        <option value="SSD">SSD</option>
+                        <option value="USB">USB Flash Drive</option>
+                        <option value="SD Card">SD Card</option>
+                        <option value="RAID">RAID Servers</option>
+                        <option value="CD/DVD">CD/DVD</option>
+                        <option value="NAS">Network Attached Storage (NAS)</option>
+                        <option value="Cloud">Cloud Storage</option>
+                        <!-- Add more options as needed -->
+                    </select>
+            
+                    <!-- Data Loss Problem field -->
+                    <select required>
+                        <option value="" disabled selected>- What is your Data Loss Problem? -</option>
+                        <option value="Accidental Deletion">Accidental Deletion</option>
+                        <option value="Corrupted Data">Corrupted Data</option>
+                        <option value="Hardware Failure">Hardware Failure</option>
+                        <option value="Software Malfunction">Software Malfunction</option>
+                        <option value="Virus Attack">Virus/Malware Attack</option>
+                        <option value="Natural Disaster">Natural Disaster</option>
+                        <option value="Power Failure">Power Failure</option>
+                        <option value="Unknown">Unknown Issue</option>
+                        <!-- Add more options as needed -->
+                    </select>
+            
+                    <!-- Best Time to Reach field -->
+                    <input type="text" placeholder="Best time to reach at? (e.g. 13:00)">
+            
+                    <!-- Leave a Message field -->
+                    <textarea placeholder="Leave a Message..." ></textarea>
+            
+                        <!-- Add reCAPTCHA widget -->
+                    <div class="g-recaptcha" data-sitekey="EkqAAAAAOtXXzymIlUt1LPYJbwhtGO07"></div>
+            
+                    <!-- Submit button -->
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+
+    <!-- Link to the external script file -->
+    <script src="script.js"></script>
+</body>
+</html>
